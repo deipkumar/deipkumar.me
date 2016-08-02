@@ -1,3 +1,0 @@
-# deipkumar.me
-
-GitHub Page
