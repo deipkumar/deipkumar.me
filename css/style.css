@@ -8,7 +8,7 @@ body {
   overflow: auto;
   background: #ffded1; /* Old browsers */
   background: -moz-linear-gradient(-45deg, #ffded1, #ffc5af); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffded1), color-stop(50%, #ffded1), color-stop(50%, #ffc5af), color-stop(100%, #ffc5af)); /* Chrome, Safari4+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffded1), color-stop(100%, #ffc5af)); /* Chrome, Safari4+ */
   /* background: -webkit-linear-gradient(-45deg, #ffded1 0%,#ffded1 50%,#ffc5af 50%,#ffc5af 100%); */ /* Chrome10+, Safari5.1+ */
   background: -webkit-linear-gradient(-45deg, #ffded1, #ffc5af);
   background: -o-linear-gradient(-45deg, #ffded1, #ffc5af); /* Opera 11.10+ */
