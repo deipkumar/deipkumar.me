@@ -42,7 +42,8 @@ p {
 }
 
 .name {
-  font-family: Montserrat; font-size: 45px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
   text-transform: uppercase;
   font-weight: 900;
   padding: 12px;
