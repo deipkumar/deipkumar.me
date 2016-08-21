@@ -66,6 +66,7 @@ p {
 /* Article */
 article {
   padding: 60px;
+  color: #fff;
 }
 article::before {
   content: '\2601';
