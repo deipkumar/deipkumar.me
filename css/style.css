@@ -1,10 +1,10 @@
-/* Main */
+/* Main #3286ff #333*/
 body {
   font-family: 'Open Sans', sans-serif; margin: 0 auto;
   line-height: 2em;
   padding: 12px;
   box-sizing: border-box;
-  color: #333;
+  color: #fff;
   overflow: auto;
   background: #ffb396; /* Old browsers */
   background: -moz-linear-gradient(-45deg, #ffded1, #ffb396); /* FF3.6+ */
@@ -29,11 +29,11 @@ body, html {
 /* Links */
 a {
   text-decoration: none;
-  color: #333;
-  border-bottom: 3px solid #3286ff;
+  color: #fff;
+  border-bottom: 3px solid #ffb396;
 }
 a:hover {
-  color: #3286ff
+  color: #ffb396
 }
 
 p {
@@ -47,7 +47,7 @@ p {
   text-transform: uppercase;
   font-weight: 900;
   padding: 12px;
-  color: #3286ff;
+  color: #ffb396;
   display: inline-block;
   position: absolute;
   margin-bottom: 60px;
@@ -71,7 +71,7 @@ article::before {
   position: relative;
   top: 0;
   left: -30px;
-  color: #3286ff;
+  color: #ffb396;
   font-size: 24px;
 }
 article::after {
@@ -79,12 +79,12 @@ article::after {
   position: relative;
   top: 40px;
   left: 300px;
-  color: #3286ff;
+  color: #ffb396;
   font-size: 44px;
 }
 
 hr {
-  border-bottom: 3px solid #3286ff;
+  border-bottom: 3px solid #ffb396;
 }
 
 /* Meta */
@@ -95,7 +95,7 @@ hr {
   letter-spacing: .15em;
 }
 .meta a:hover {
-  color: #333;
+  color: #fff;
 }
 
 /* List */
@@ -113,7 +113,7 @@ footer .inline-list li {
   margin-right: 40px;
 }
 footer a {
-  border: none; color: #3286ff;
+  border: none; color: #ffb396;
 }
 footer {
   margin: 0 auto;
