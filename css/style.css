@@ -1,4 +1,4 @@
-/* Main #3286ff #333*/
+/* Main #3286ff*/
 body {
   font-family: 'Open Sans', sans-serif; margin: 0 auto;
   line-height: 2em;
@@ -16,7 +16,6 @@ body, html {
   height: 100%;
   overflow: auto;
 }
-
 
 /* Links */
 a {
@@ -36,7 +35,6 @@ p {
 }
 
 .name {
-  font-family: 'Open Sans', sans-serif;
   font-size: 45px;
   text-transform: uppercase;
   font-weight: 900;
@@ -117,4 +115,10 @@ footer {
   padding: 40px 0 0 0;
   width: 600px;
   -webkit-transform: rotate(-90deg);
+}
+
+canvas {
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
