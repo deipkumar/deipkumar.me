@@ -8,15 +8,15 @@
     <title>Hello World</title>
   </head>
   <body>
-    <canvas id="canvas" style="position : absolute; top : 0px; left : 0px;"></canvas>
+    <canvas id="canvas"></canvas>
     <div class="wrapper">
       <div class="container">
         <header>
           <h1 class="name">Deip Kumar</h1>
         </header>
         <article>
-          <p>I'm a sophomore at Dartmouth College majoring in CS and interested in artificial intelligence. I was born and raised in New Mexico and now live in Albuquerque. I developed and completely overhauled the website design of <a href="http://ambiencehospitality.com/">ambiencehospitality.com</a>, and its logo from scratch. I also joined the <a href="http://dartmouthbusinessjournal.com/">Dartmouth Business Journal</a> as Head of Technology and Webmaster.</p>
-          <p>I'm currently working alone on a large research project simulating <a href="https://askabiologist.asu.edu/brine-channels">brine channels in sea ice sheets</a>, which has never been done before and has far reaching implications in climate science.</p>
+          <p>I'm a sophomore at Dartmouth College majoring in CS and interested in artificial intelligence. I was born and raised in New Mexico and now live in Albuquerque. I developed and completely overhauled the website design of <a href="http://ambiencehospitality.com/" target="_blank">ambiencehospitality.com</a>, and its logo from scratch. I also joined the <a href="http://dartmouthbusinessjournal.com/" target="_blank">Dartmouth Business Journal</a> as Head of Technology and Webmaster.</p>
+          <p>I'm currently working alone on a large research project simulating <a href="https://askabiologist.asu.edu/brine-channels" target="_blank">brine channels in sea ice sheets</a>, which has never been done before and has far reaching implications in climate science.</p>
         </article>
         <footer>
           <ul class="meta inline-list">
@@ -29,14 +29,14 @@
     </div>
     <script>
       requestAnimFrame = (function() {
-      return window.requestAnimationFrame ||
-      window.webkitRequestAnimationFrame ||
-      window.mozRequestAnimationFrame ||
-      window.oRequestAnimationFrame ||
-      window.msRequestAnimationFrame ||
-      function(callback) {
-      window.setTimeout(callback, 1000/60);
-      };
+        return window.requestAnimationFrame ||
+        window.webkitRequestAnimationFrame ||
+        window.mozRequestAnimationFrame ||
+        window.oRequestAnimationFrame ||
+        window.msRequestAnimationFrame ||
+        function(callback) {
+          window.setTimeout(callback, 1000/60);
+        };
       })();
 
       var canvas = document.getElementById('canvas');
