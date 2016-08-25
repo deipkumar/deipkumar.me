@@ -4,7 +4,7 @@ body {
   line-height: 2em;
   padding: 12px;
   box-sizing: border-box;
-  color: #333;
+  color: #fff;
   overflow: auto;
 }
 body, html {
@@ -20,7 +20,7 @@ body, html {
 /* Links */
 a {
   text-decoration: none;
-  color: #fff;
+  color: #333;
   border-bottom: 3px solid #ffb396;
 }
 a:hover {
@@ -31,7 +31,7 @@ p {
   font-weight: 200;
   font-size: 20px;
   position: relative;
-  color: #fff;
+  color: #333;
 }
 
 .name {
@@ -87,7 +87,7 @@ hr {
   letter-spacing: .15em;
 }
 .meta a:hover {
-  color: #fff;
+  color: #333;
 }
 
 /* List */
